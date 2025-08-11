@@ -1,0 +1,46 @@
+body {
+  background-color: #EAEAEA;
+}
+
+.header {
+ background-color: #FFFFFF;
+}
+
+.header_h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: TT Lakes; /* Шрифт */
+  font-weight: 400; /* Обычное начертание */
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #7E7E82;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+
+.swiper-slide {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 240px;
+  max-height: 72px;
+  padding: 16px;
+  border-radius: 6px;
+  border-color: #EAEAEA;
+  background-color: #FFFFFF;
+}
+
+img {
+  max-height: 40px;
+}
+
+
+
+
+
+
+
