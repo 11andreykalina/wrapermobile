@@ -3,7 +3,8 @@ body {
 }
 
 .header {
- background-color: #FFFFFF;
+ background-color: #F8F8F8;
+ border-color: #FFFFFF;
 }
 
 .header_h1{
@@ -38,12 +39,13 @@ img {
   max-height: 40px;
 }
 
-.swiper-pagination {
-  position: absolute;
-  margin-bottom: 450px;
-}
+
 
 .nav_open {
+  display: none;
+}
+
+.hidden{
   display: none;
 }
 

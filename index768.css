@@ -10,9 +10,8 @@
     /* Отступы между рядами */
     row-gap: 16px;
     /* Отступы между колонками */
-    overflow: hidden; /* Скрывает лишние строки */
-    max-height: calc(2 * 104px + row-gap);
-
+   
+   
   }
 
   .swiper-slide {
@@ -22,6 +21,7 @@
   border-radius: 6px;
   border-color: #EAEAEA;
   background-color: #FFFFFF;
+
 }
 
 .swiper-pagination{
