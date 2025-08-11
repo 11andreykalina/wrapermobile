@@ -38,6 +38,15 @@ img {
   max-height: 40px;
 }
 
+.swiper-pagination {
+  position: absolute;
+  margin-bottom: 450px;
+}
+
+.nav_open {
+  display: none;
+}
+
 
 
 

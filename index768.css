@@ -1,0 +1,50 @@
+@media (min-width: 768px) {
+  .swiper-contianer {
+    display: grid;
+  }
+
+  .swiper-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* Отступы между рядами */
+    row-gap: 16px;
+    /* Отступы между колонками */
+    overflow: hidden; /* Скрывает лишние строки */
+    max-height: calc(2 * 104px + row-gap);
+
+  }
+
+  .swiper-slide {
+  max-width: 224px;
+  max-height: 72px;
+  padding: 16px;
+  border-radius: 6px;
+  border-color: #EAEAEA;
+  background-color: #FFFFFF;
+}
+
+.swiper-pagination{
+    display: none;
+}
+
+.nav_open {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 16px;
+    gap: 8px;
+    margin-top: 24px;
+    border: none;
+    background: none;
+}
+
+.nav_button-text{
+  font-family: TT Lakes; /* Шрифт */
+  font-weight: 500; /* Обычное начертание */
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #7E7E82;
+}
+
+}
