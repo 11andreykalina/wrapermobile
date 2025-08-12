@@ -7,11 +7,6 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    /* Отступы между рядами */
     row-gap: 16px;
-    /* Отступы между колонками */
-    overflow: hidden; /* Скрывает лишние строки */
-    max-height: calc(2 * 104px + row-gap);
-
   }
 }

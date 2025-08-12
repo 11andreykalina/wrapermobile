@@ -7,11 +7,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    /* Отступы между рядами */
     row-gap: 16px;
-    /* Отступы между колонками */
-   
-   
   }
 
   .swiper-slide {
@@ -21,7 +17,6 @@
   border-radius: 6px;
   border-color: #EAEAEA;
   background-color: #FFFFFF;
-
 }
 
 .swiper-pagination{
@@ -45,6 +40,14 @@
   line-height: 24px;
   letter-spacing: -0.2px;
   color: #7E7E82;
+}
+
+.nav-img {
+    transition: transform 0.3s ease; /* Плавный переход */
+}
+
+.nav-img.rotated {
+    transform: rotate(180deg); /* Поворот на 180 градусов */
 }
 
 }

@@ -35,6 +35,10 @@ body {
   background-color: #FFFFFF;
 }
 
+.swiper-slide:hover {
+  cursor: pointer;
+}
+
 img {
   max-height: 40px;
 }
@@ -45,9 +49,14 @@ img {
   display: none;
 }
 
+.nav_open{
+  cursor: pointer;
+}
+
 .hidden{
   display: none;
 }
+
 
 
 
